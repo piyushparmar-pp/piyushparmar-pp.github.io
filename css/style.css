@@ -51,11 +51,13 @@ a {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-weight: normal;
 }
 a:hover, a:active, a:focus {
   color: #FF9000;
   outline: none;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 p {

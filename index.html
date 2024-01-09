@@ -71,6 +71,8 @@
 												class="icon-vimeo"></i></a></li>
 								</ul>
 								</p>
+								<br />
+								<h3><span><a onclick="jumpToDiv('fh5co-about');" style="color: azure;">About Me</a> | <a onclick="jumpToDiv('fh5co-resume');" style="color: azure;">Resume</a> | <a onclick="jumpToDiv('fh5co-features');" style="color: azure;">Services</a> | <a onclick="jumpToDiv('fh5co-skills');" style="color: azure;">Skills</a> | <a onclick="jumpToDiv('fh5co-work');" style="color: azure;">Work</a> | <a onclick="jumpToDiv('fh5co-about');" style="color: azure;">Contact</a></span></h3>
 							</div>
 						</div>
 					</div>
@@ -651,7 +653,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://www.youtube.com/watch?v=h3HJwFW3IKA" target="_blank" class="work" style="background-image: url(images/yOST9YWn_400x400.jpg);">
+						<a href="https://www.youtube.com/watch?v=h3HJwFW3IKA" target="_blank" class="work"
+							style="background-image: url(images/yOST9YWn_400x400.jpg);">
 							<div class="desc">
 								<h3>Jarvis Tour using FPV Drones</h3>
 								<!-- <span>Illustration</span> -->
@@ -668,7 +671,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://vimeo.com/418094388" class="work" style="background-image: url(images/IMG_1193.jpg);">
+						<a href="https://vimeo.com/418094388" class="work"
+							style="background-image: url(images/IMG_1193.jpg);">
 							<div class="desc">
 								<h3>Aerial Cinematography Consultancy and Services for Indian Film Industry</h3>
 								<!-- <span>Website</span> -->
@@ -692,7 +696,8 @@
 						</a>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://resources.depaul.edu/art-museum/Pages/default.aspx" target="_blank" class="work" style="background-image: url(images/DePaul-Art-Museum-Homepage-1200x500.png);">
+						<a href="https://resources.depaul.edu/art-museum/Pages/default.aspx" target="_blank"
+							class="work" style="background-image: url(images/DePaul-Art-Museum-Homepage-1200x500.png);">
 							<div class="desc">
 								<h3>360 Interactive Tour for DePaul Art Museum</h3>
 								<!-- <span>Illustration</span> -->
@@ -707,7 +712,7 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Contacts</h2>
+						<h2>Contact</h2>
 						<p><a href="tel:+13127764398" class="btn btn-default btn-lg">Phone : +1 312 776 4398 </a></p>
 						<p><a href="mailto:parmarpiyush12.pp@gmail.com" class="btn btn-default btn-lg">Email :
 								parmarpiyush12.pp@gmail.com</a></p>
@@ -766,6 +771,15 @@
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script> -->
+		<script>
+			// JavaScript function to jump to the specified div
+			function jumpToDiv(divId) {
+				var targetDiv = document.getElementById(divId);
+				if (targetDiv) {
+					targetDiv.scrollIntoView({ behavior: 'smooth' });
+				}
+			}
+		</script>
 
 		<!-- Main -->
 		<script src="js/main.js"></script>
